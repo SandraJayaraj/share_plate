@@ -1,0 +1,23 @@
+$primary-color:#ff8a8a;
+
+@import 'animate.css';
+
+
+
+@font-face{
+  font-family: 'Hilland';
+  src: local(Hilland),url('/assests/font/hilland-font/hilland.ttf')format('ttf');
+}
+@font-face{
+  font-family: 'Stay Wild';
+  src: local(Stay Wild) ,url('/assests/font/stay_wildy-font/Stay Wildy.ttf')format('ttf');
+}
+@font-face{
+  font-family: 'DelthaRegular';
+  src: local(DelthaRegular), url('/assests/font/deltha-font/DelthaRegular-JR027.ttf')format('ttf');
+
+  input,
+  textarea{
+    font-family: 'Stay Wild';
+  }
+}

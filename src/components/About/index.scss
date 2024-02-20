@@ -1,0 +1,59 @@
+.about-page {
+
+    .text-zone {
+        position: absolute;
+        left:20%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1 {
+            font-size: 55px;
+            font-family: 'DelthaRegular';
+            font-weight: 600px;
+            color: white;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            left: 10px;
+
+            &:hover {
+
+                color: #5d28dd;
+
+            }
+        }
+
+        p {
+            font-size: 15px;
+            font-family: 'Hilland';
+            line-height: 1.5em;
+            letter-spacing: 1px;
+            color: aquamarine;
+            font-weight: 400;
+            min-width: fit-content;
+            animation: pulse 1s;
+        }
+
+
+    }
+}
+.self{
+    display: block;
+    padding: 15% 70%;
+    transition: all 0.3s ease-out;
+    transform: scale(1);
+    animation: pulse 1s
+
+   
+    img{
+        display: block;
+        margin: 8px auto;
+        width: 1px;
+        height: auto;
+        
+    }
+}

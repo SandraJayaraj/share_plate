@@ -1,13 +1,26 @@
+html{
+  font-size: 65%;
+}
+
+@font-face {
+  font-family: "DelthaRegular";
+  src: local("DelthaRegular"),
+   url("./assests/font/deltha-font/DelthaRegular-JR027.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  
+  font: 300 11px/1.4 'Hilland';
+   color: #5d28dd;
+  background:#282838;
+  overflow:hidden;
+  display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'DelthaRegular';
 }

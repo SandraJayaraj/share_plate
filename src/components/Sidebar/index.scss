@@ -1,0 +1,160 @@
+.nav-bar{
+    background: #181616;
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+
+    .logo{
+        display: block;
+        padding: 20px 0;
+        transition: all 0.3s ease-out;
+        transform: scale(1);
+
+        &:hover {
+            transform: scale(1.5);
+          }
+
+        img{
+            display: block;
+            margin: 8px auto;
+            width: 60px;
+            height: auto;
+            
+        }
+    }
+
+    nav{
+        display: block;
+        text-align: center;
+        position: absolute;
+        height: 210px;
+        top: 55%;
+        margin-top: -120px;
+        width: 100%;
+    
+    
+        a{
+            font-size: 22px;
+            color:#f5f3f7;
+            display: block;
+            line-height: 50px;
+            height: 50px;
+            position: relative;
+            text-decoration: none;
+        
+            i{
+                transition: all 0.3s ease-out;
+            }
+        
+            &:hover {
+                
+                color: white;
+        
+                svg { 
+                    opacity: 0;
+        
+                }
+        
+                &:after {
+                    opacity: 1;
+                }
+            }
+        
+            &:after{
+                content: '';
+                font-size:15px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom:0;
+                display: block;
+                width: 100%;
+                text-align: centre;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+                transform: scale(1.5);
+        
+            }
+
+            &:first-child {
+
+                &::after {
+                    content: 'Home';
+                }
+            }
+
+            
+        }
+        a.about-link {
+            &:after {
+                content: 'About'
+            }
+
+        }
+
+        a.contact-link {
+            &:after {
+                content: 'Contact'
+            }
+        }
+
+        a.active {
+            svg {
+            
+            color: white;
+            }
+        }
+
+    }
+
+    ul {
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li {
+            a{
+                padding: 7px 0;
+                display: block;
+                font-size: 24px;
+                line-height: 36px;
+                transition: all 0.2s ease-out;
+                transform: scale(1);
+
+            }
+
+            
+            &:hover svg{
+                color: white;
+                transform: scale(1.3);
+            }
+
+
+        }
+
+    }
+
+   
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+.social-icons li {
+  margin-bottom: 1rem;
+}
+
+    
+    
+    
+}
+

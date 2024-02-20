@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assests/font/deltha-font/DelthaRegular-JR027.ttf';
+import './assests/font/hilland-font/hilland.ttf';
+import './assests/font/stay_wildy-font/Stay Wildy.ttf';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
 
