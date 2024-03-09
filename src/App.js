@@ -4,7 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout'
 import Home from './components/Home';
 import About from './components/About';
-import Explore from './components/Explore';
+import Donor from './components/Donor';
+import Dsignup from './components/Dsignup';
 import Contact from './components/Contact';
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="explore" element={<Explore />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="donor" element={<Donor />} />
+          <Route path="dsignup" element={<Dsignup />} />
 
         </Route>
 

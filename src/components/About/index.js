@@ -1,7 +1,7 @@
 
 import './index.scss'
 import { Link } from 'react-router-dom'
-import LogoS from '../../assests/images/self.png';
+import LogoS from '../../assests/images/img 11.png';
 
 const About = () => {
   
@@ -15,24 +15,17 @@ const About = () => {
         <div className="text-zone">
           <h1>
             
-            About Me
+            About Us
           </h1>
           <p>
-          Hello there! I'm Anjana, a passionate fourth-year Computer Science Engineering student 
-          with a keen interest in exploring the intersection of technology and creativity. 
-          Beyond the world of coding and algorithms, I find solace and inspiration in various artistic endeavors such as
-          photography, digital art, cooking, and music.
+          Welcome to Share Plate, your online platform for food donation and community support. Our website is dedicated to connecting donors, volunteers, and those in need to combat food insecurity and hunger in our community.
           </p>
           <p >
-          In my journey as a computer science student, I've delved into various projects spanning machine learning, and web development. Each project has been an opportunity to learn, grow, and apply my skills to real-world problems.
-
-As I continue to explore diverse fields and push the boundaries of my knowledge, I'm excited about the endless possibilities that lie ahead. Join me on this journey of innovation, creativity, and lifelong learning.
+          At Share Plate, we believe that everyone deserves access to nutritious food and a helping hand in times of need. Our platform provides a simple and convenient way for individuals, businesses, and organizations to donate surplus food and contribute to our mission of ending hunger.
 
 
           </p>
-          <p>
-          Let's connect and create something amazing together!
-          </p>
+         
         
         </div>
 
