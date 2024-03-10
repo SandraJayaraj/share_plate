@@ -1,0 +1,56 @@
+/* ContactPage.css */  
+.text-reg {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'DelthaRegular';
+    font-weight: 600px;
+    font-size: 30px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-field textarea {
+    height: 100px;
+  }
+  
+  .form-button {
+    color: #5d28dd;
+    background-color: aquamarine;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: 'DelthaRegular';
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid rgb(13, 238, 88);
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    border-radius: 5px;
+
+    &:hover {
+    background: rgb(254, 255, 255);
+    color:#5d28dd;
+    
+    
+    }
+  }
