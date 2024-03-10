@@ -6,17 +6,16 @@ SharePlate is a web platform designed to connect hotels with surplus food to com
 ## Features
 
 - **Hotel Registration**: Hotels can register on SharePlate to donate surplus food.
-- **Volunteer and Career Opportunities**: Individuals can sign up to assist with food distribution or explore job opportunities supporting the SharePlate mission.
-- **Hotspot Locator**: Users can locate nearby hotspots for food pickup, ensuring efficient delivery to communities in need.
+- **Volunteer Registration**: Individuals can sign up to assist with food distribution thereby supporting the SharePlate mission.
+- **Hotspot Locator**: Locate the shortest distance between each hotels and communities in need and find a location as hotspot.
 - **Real-time Notifications**: Receive notifications about surplus food availability and distribution events.
 
-## Getting Started
 
-To get started with SharePlate, follow these steps:
+## Technology Stack
 
-1. **Clone the Repository**: `git clone https://github.com/yourusername/shareplate.git`
-2. **Install Dependencies**: `npm install`
-3. **Start the Development Server**: `npm start`
+- Frontend: React.js, HTML, CSS
+- Backend: php
+- Database: MySQL
 
 ## Contributing
 
